@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="shortcut icon" href="assets/fork-knife.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <img src="assets/logo.png " alt="logo" width="40" height="40" class="d-inline-block align-text-top">
+        <a class="navbar-brand px-2" href="#">FooD CookeR</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#book">Book Table</a>
+            </li>
+
+          </ul>
+
+          <form class="d-flex p-4">
+            <div class="p-2 icon"><i class="bi bi-person"></i></div>
+            <div class="p-2"><i class="bi bi-cart-dash"></i></div>
+            <div class="p-2"><i class="bi bi-search"></i></div>
+          </form>
+          <form class="d-flex py-2">
+
+            <button type="button" class="btn btn-warning">Order Online</button>
+          </form>
+
+
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+  <section class="hero">
+    <section class="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/hero-bg.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button type="button" class="btn btn-warning">Order Online</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/hero-bg.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+              <button type="button" class="btn btn-warning">Order Online</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/hero-bg.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+              <button type="button" class="btn btn-warning">Order Online</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </section>
+
+  <section class="offersection py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="offerbox text-white  p-3 m-3">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="offerimg">
+                  <img src="assets/o2.jpg" alt="discountimg" class="">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="offercontent p-3 m-2">
+                  <h3>Tasty Thursdays</h3>
+                  <p>20% Off</p>
+                  <button type="button" class="btn btn-warning">Order Online <i
+                      class="bi bi-cart-check px-2"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="offerbox text-white  p-3 m-3">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="offerimg">
+                  <img src="assets/o2.jpg" alt="discountimg" class="">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="offercontent p-3 m-2">
+                  <h3>Pizza Days</h3>
+                  <p>15% Off</p>
+                  <button type="button" class="btn btn-warning">Order Online <i
+                      class="bi bi-cart-check px-2"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h1 id="menu" style="color: white;">hi</h1>
+  <br>
+  <br>
+
+  <section class="menusection py-2">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-4">
+          <h1>Our Menu</h1>
+        </div>
+      </div>
+      <!-- Nav Tabs -->
+      <ul class="nav nav-tabs justify-content-center menu-tabs mb-4" id="menuTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pizza-tab" data-bs-toggle="tab" data-bs-target="#pizza" type="button"
+            role="tab" aria-controls="pizza" aria-selected="true">
+            <i class="bi bi-pizza"></i> Pizza
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="burger-tab" data-bs-toggle="tab" data-bs-target="#burger" type="button"
+            role="tab" aria-controls="burger" aria-selected="false">
+            <!-- <i class="bi bi-egg-fried"></i>  -->Burger
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="drinks-tab" data-bs-toggle="tab" data-bs-target="#drinks" type="button"
+            role="tab" aria-controls="drinks" aria-selected="false">
+            <!-- <i class="bi bi-cup-straw"></i> -->Drinks
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="menuTabContent">
+        <!-- Pizza Tab -->
+        <div class="tab-pane fade show active" id="pizza" role="tabpanel" aria-labelledby="pizza-tab">
+          <div class="row g-4">
+            <div class="col-12 col-md-4">
+              <div class="card menu-card h-100">
+                <img src="assets/f1 (1).png" class="card-img-top" alt="Pizza 1">
+                <div class="card-body">
+                  <h5 class="card-title">Delicious Pizza</h5>
+                  <p class="card-text">Classic cheese pizza with fresh ingredients .</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="mb-0">&#8377;229</h3>
+                    <button type="button" class="btn btn-warning">
+                      <i class="bi bi-cart-check px-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card menu-card h-100">
+                <img src="assets/f3.png" class="card-img-top" alt="Pizza 2">
+                <div class="card-body">
+                  <h5 class="card-title">Veggie Pizza</h5>
+                  <p class="card-text">Loaded with fresh veggies and mozzarella cheese.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="mb-0">&#8377;239</h3>
+                    <button type="button" class="btn btn-warning">
+                      <i class="bi bi-cart-check px-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card menu-card h-100">
+                <img src="assets/f1.png" class="card-img-top" alt="Pizza 3">
+                <div class="card-body">
+                  <h5 class="card-title">Pepperoni Pizza</h5>
+                  <p class="card-text">Topped with spicy pepperoni and extra cheese.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="mb-0">&#8377;299</h3>
+                    <button type="button" class="btn btn-warning">
+                      <i class="bi bi-cart-check px-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Burger Tab -->
+        <div class="tab-pane fade" id="burger" role="tabpanel" aria-labelledby="burger-tab">
+          <div class="row g-4">
+            <div class="col-12 col-md-4">
+              <div class="card menu-card h-100">
+                <img src="assets/burger1.png" class="card-img-top" alt="Burger 1">
+                <div class="card-body">
+                  <h5 class="card-title">Classic Burger</h5>
+                  <p class="card-text">Juicy beef patty with lettuce, tomato, and cheese.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="mb-0">&#8377;189</h3>
+                    <button type="button" class="btn btn-warning">
+                      <i class="bi bi-cart-check px-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card menu-card h-100">
+                <img src="assets/burger2.png" class="card-img-top" alt="Burger 2">
+                <div class="card-body">
+                  <h5 class="card-title">Veggie Burger</h5>
+                  <p class="card-text">Grilled veggie patty with fresh greens and sauce.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="mb-0">&#8377;219</h3>
+                    <button type="button" class="btn btn-warning">
+                      <i class="bi bi-cart-check px-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card menu-card h-100">
+                <img src="assets/burger3.png" class="card-img-top" alt="Burger 3">
+                <div class="card-body">
+                  <h5 class="card-title">Chicken Burger</h5>
+                  <p class="card-text">Crispy chicken fillet with mayo and lettuce.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="mb-0">&#8377;249</h3>
+                    <button type="button" class="btn btn-warning">
+                      <i class="bi bi-cart-check px-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Drinks Tab -->
+        <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks-tab">
+          <div class="row g-4">
+            <div class="col-12 col-md-4">
+              <div class="card menu-card h-100">
+                <img src="assets/drink1.png" class="card-img-top" alt="Drink 1">
+                <div class="card-body">
+                  <h5 class="card-title">Fresh Lemonade</h5>
+                  <p class="card-text">Refreshing homemade lemonade with mint.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="mb-0">&#8377;109</h3>
+                    <button type="button" class="btn btn-warning">
+                      <i class="bi bi-cart-check px-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card menu-card h-100">
+                <img src="assets/drink2.webp" class="card-img-top" alt="Drink 2">
+                <div class="card-body">
+                  <h5 class="card-title">Iced Tea</h5>
+                  <p class="card-text">Chilled iced tea with a hint of lemon.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="mb-0">&#8377;129</h3>
+                    <button type="button" class="btn btn-warning">
+                      <i class="bi bi-cart-check px-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card menu-card h-100">
+                <img src="assets/drink3.png" class="card-img-top" alt="Drink 3">
+                <div class="card-body">
+                  <h5 class="card-title">Cold Coffee</h5>
+                  <p class="card-text">Rich and creamy cold coffee with ice.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="mb-0">&#8377;159</h3>
+                    <button type="button" class="btn btn-warning">
+                      <i class="bi bi-cart-check px-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <h1 id="about" style="color: white;">hi</h1>
+  <br>
+  <br>
+  <section class="about-section py-5">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-6">
+          <div class="about-img">
+            <img src="assets/about-img.png" alt="aboutimg" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-6 py-10">
+          <div class="aboutcontent">
+            <h2>
+              We Are Feane
+            </h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
+              are going to use a passage of Lorem Ipsum, you need
+              to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
+            <button type="button" class="btn btn-warning">Read More</button>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <section style="background-color: #393e46;;">
+    <h1 id="book" style="color:  #393e46;">hi</h1>
+    <br>
+
+
+  </section>
+
+  <section class="form-section py-5">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-md-6">
+          <div class="formcontent text-center mb-2">
+            <h2>Book A Table</h2>
+            <p>Book your table in advance to avoid waiting in long queues. Reserve your spot now!</p>
+          </div>
+          <form id="bookingForm">
+            <div class="mb-5">
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-5">
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="mb-5">
+              <input type="tel" class="form-control" id="phone" placeholder="Your Phone">
+            </div>
+            <div class="mb-5">
+              <input type="number" class="form-control" id="people" placeholder="Number of People">
+            </div>
+            <button type="submit" class="btn btn-warning">Book Now</button>
+          </form>
+
+        </div>
+
+
+        <div class="col-md-6">
+          <div class="map mt-3">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.904721851682!2d80.2237575748908!3d12.84943008745481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525bec8ac4cd41%3A0x838ba44a2f1cf514!2sRTS%20Food%20Street%20-%20Navalur!5e0!3m2!1sen!2sin!4v1756298750761!5m2!1sen!2sin"
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="client-section py-5">
+    <div class="container text-center">
+      <h2 class="mb-5">What Says Our Customers</h2>
+
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- First testimonial -->
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <div class="testimonial-box">
+                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                  <h6 class="fw-bold">Mike Hamell</h6>
+                  <small>magna aliqua</small>
+                </div>
+                <div class="mt-3">
+                  <img src="assets/client1.jpg" alt="Mike" class="testimonial-img">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second testimonial -->
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <div class="testimonial-box">
+                  <p>"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."</p>
+                  <h6 class="fw-bold">Moana Michell</h6>
+                  <small>magna aliqua</small>
+                </div>
+                <div class="mt-3">
+                  <img src="assets/client1.jpg" alt="Moana" class="testimonial-img">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="footer-section py-5">
+    <footer class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Contact us</h3>
+
+          <div class="footercontent">
+            <div class="mb-2">
+              <a href="#">
+                <i class="bi bi-geo-alt-fill"></i>
+              </a>
+              <span>Location</span>
+            </div>
+
+            <div class="mb-2">
+              <a href="#">
+                <i class="bi bi-telephone"></i>
+              </a>
+              <span>Call +01 1234567890</span>
+            </div>
+
+            <div class="mb-5">
+              <a href="#">
+                <i class="bi bi-envelope-fill"></i>
+              </a>
+              <span>demo@gmail.com</span>
+            </div>
+
+
+          </div>
+
+        </div>
+        <div class="col-md-4 mb-5">
+          <h3>Feane</h3>
+          <p>Necessary, making this the first true generator on the Internet.
+            It uses a dictionary of over 200 Latin words, combined with</p>
+          <a href=""> <i class="bi bi-facebook"></i></a>
+          <a href=""> <i class="bi bi-instagram"></i></a>
+          <a href=""> <i class="bi bi-twitter"></i></a>
+          <a href=""> <i class="bi bi-linkedin"></i></a>
+          <a href=""> <i class="bi bi-whatsapp"></i></a>
+
+        </div>
+        <div class="col-md-4">
+          <h3>Opening Hours</h3>
+          <div>
+            <h5>Everyday</h5>
+            <p>10.00 AM - 11.00 PM</p>
+          </div>
+        </div>
+      </div>
+      <div class="last-section">
+        <p class="text-center">© 2025 FooD CookeR. All Rights Reserved</p>
+        <p class="text-center">© Distributed By Wazil Solutions</p>
+
+      </div>
+    </footer>
+  </section>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
